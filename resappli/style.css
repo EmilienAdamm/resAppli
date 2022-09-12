@@ -1,0 +1,16 @@
+table
+{
+    border-collapse: collapse;
+}
+td, th /* Mettre une bordure sur les td ET les th */
+{
+    border: 1px solid black;
+}
+
+th{
+    background-color: #567DAC;
+}
+.up:hover{
+    box-shadow: inset 6.5em 0 0 0 var(--hover);
+    background-color: green;
+}

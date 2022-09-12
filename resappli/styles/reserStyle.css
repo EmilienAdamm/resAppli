@@ -1,0 +1,76 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+#header {
+    align-content: center;
+    position: relative;
+    top: 50%;
+    width: 100%;
+    height: 40%;
+}
+
+#logoPrixy {
+    top:2%;
+    position: relative;
+    left: 45%;
+    width: 10%;
+    height: 5%;
+    align-self: center;
+}
+
+#title {
+    position:relative;
+    text-align: center;
+    font-weight: bolder;
+    font-size:xx-large;
+    text-decoration: underline;
+}
+
+form {
+    left: 30%;
+    position: relative;
+    height: 50%;
+    width: 40%;
+}
+
+fieldset {
+    border-radius:10px;
+}
+
+#formInputs {
+    display: inline-block;
+    padding-right: 5%;
+}
+
+#nmbMembres {
+    width:180px;
+}
+
+#accueil {
+    position:fixed; 
+    left: 2%;
+    top:90%;
+}
+
+#accueilF:hover {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(236, 236, 236);
+}
+
+#accueilF {
+    width: 50px;
+}
+
+#submit {
+    position: relative;
+    height:8%;
+    width:15%;
+    left: 42.5%;
+    border-radius: 7px;
+}
+
+#submit:hover {
+    background-color: rgb(16, 240, 16);
+}
